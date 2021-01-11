@@ -5,13 +5,10 @@ const getCarrinho = (index) => {
   switch (index) {
     case 'acima':
       return acima10Reais;
-      break;
     case 'abaixo':
       return abaixo10Reais;
-      break;
     default:
       return {}
-      break;
   }
 }
 
