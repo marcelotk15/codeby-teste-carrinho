@@ -3,10 +3,10 @@ const abaixo10Reais = require('./abaixo-10-reais.json')
 
 const getCarrinho = (index) => {
   switch (index) {
-    case 1:
+    case 'acima':
       return acima10Reais;
       break;
-    case 2:
+    case 'abaixo':
       return abaixo10Reais;
       break;
     default:
