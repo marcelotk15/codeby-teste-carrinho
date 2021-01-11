@@ -21,6 +21,8 @@ export const Item = styled.div`
     flex-direction: column;
     margin-left: 1rem;
     justify-content: space-evenly;
+    flex: 1;
+
     .item-name {
       font-weight: 900;
       font-size: 0.8rem;
@@ -34,6 +36,16 @@ export const Item = styled.div`
 
     .selling-price {
       margin-top: -1rem
+    }
+
+    .item-remove {
+      flex: 0;
+      justify-self: right;
+      color: #fff;
+      background-color: #F85149;
+      border: none;
+      cursor: pointer;
+      padding: 0.3rem;
     }
   }
 `

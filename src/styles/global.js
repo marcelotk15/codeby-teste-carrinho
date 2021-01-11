@@ -74,6 +74,24 @@ export default createGlobalStyle`
     padding: 1rem;
     border-bottom: 1px solid #c4c4c4;
 
+    .delivery {
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+
+      .delivery-price {
+        font-weight: 500;
+        font-size: 0.7rem;
+        color: #A8AEC8; 
+
+        span {
+          font-size: 1rem;
+          color: #000;
+        }
+      }
+    }
+
     .price {
       display: flex;
       justify-content: space-between;
@@ -106,6 +124,17 @@ export default createGlobalStyle`
       width: 100%;
       border: none;
       cursor: pointer;
+    }
+  }
+
+  .input-group
+  {
+    display:flex;
+
+    input
+    {
+      padding: 5px;
+      outline: none;
     }
   }
 `
